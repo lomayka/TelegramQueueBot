@@ -1,0 +1,12 @@
+{
+  "name": "queue-bot",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "dependencies": {
+    "node-telegram-bot-api": "^0.27.1",
+    "telegram-bot-api": "^1.2.0"
+  }
+}
