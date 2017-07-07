@@ -7,7 +7,7 @@ const token = process.env.TOKEN;
 const bot = new TelegramBot(token, {polling: true});
 
 // Matches "/echo [whatever]"
-bot.onText(/\/echo (.+)/, function (msg, match) {
+bot.onText(/\/echo (.+)/, function(msg, match) {
     // 'msg' is the received Message from Telegram
     // 'match' is the result of executing the regexp above on the text content
     // of the message
@@ -21,7 +21,7 @@ bot.sendMessage(chatId, resp);
 
 // Listen for any kind of message. There are different kinds of
 // messages.
-bot.on('message', function (msg) {
+bot.on('message', function(msg) {
     const chatId = msg.chat.id;
 
 // send a message to the chat acknowledging receipt of their message
