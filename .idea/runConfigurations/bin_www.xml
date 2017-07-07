@@ -2,6 +2,7 @@
   <configuration default="false" name="bin/www" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" path-to-js-file="bot.js" working-dir="$PROJECT_DIR$">
     <envs>
       <env name="DEBUG" value="queue_bot:*" />
+      <env name="TOKEN" value="411029336:AAGul47pNcaV5jM178h2iPITASwnFQ9XrdA" />
     </envs>
     <browser url="http://localhost:3000/" />
     <EXTENSION ID="com.jetbrains.nodejs.remote.docker.NodeJSDockerRunConfigurationExtension">
