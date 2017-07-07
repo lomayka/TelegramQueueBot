@@ -1,5 +1,6 @@
 # Created by .ignore support plugin (hsz.mobi)
 
+.idea
 /package-lock.json
 /node_modules/
 ### JetBrains template
