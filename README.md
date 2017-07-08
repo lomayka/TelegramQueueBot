@@ -6,27 +6,27 @@ To use this bot you must register it with @bot_father and insert the token into 
 
 Main commands for the bot:
 
-/start@Queue_bot
+<code>/start@Queue_bot</code>
 
 allows the administrator of the group to connect queue_bot to chat.
 
-/openQueue:"queue name"
+<code>/openQueue:"queue name"</code>
 
 Opens the queue of the chosen name 
 
-/enqueue:"queue name"
+<code>/enqueue:"queue name"</code>
 
 Adds the person, who sent the message to the queue
 
-/dequeue:"queue name"
+<code>/dequeue:"queue name"</code>
 
 Deletes the person from queue
 
-/close:"queue name"
+<code>/close:"queue name"</code>
 
 closes the queue
 
-/stop
+<code>/stop</code>
 
 deletes the bot from chats
 
